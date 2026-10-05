@@ -1,6 +1,6 @@
 # Rejection playbook
 
-Each entry: reviewer wording → mechanism (what in the binary, metadata or backend produced it) → fix → prevention. Pull the current guideline text before replying: `python3 $SKILL/scripts/apple_docs.py guideline <ref>`.
+Each entry: reviewer wording → mechanism (what in the binary, metadata or backend produced it) → fix → prevention. Pull the current guideline text before replying: `python3 $SKILL/scripts/apple_docs.py guideline "<ref>"`.
 
 ## Contents
 

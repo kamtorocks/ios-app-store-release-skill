@@ -14,7 +14,7 @@ Field-tested release lessons, abstracted into principles that apply to any app a
 Apple changes the rules several times a year: guideline revisions, SDK and Xcode minimums every spring, privacy-manifest and age-rating requirements. Treat your own memory as stale, the archive as a dated cache, and the live site as the authority.
 
 - At the start of a release task, run `python3 $SKILL/scripts/apple_docs.py status`. If anything is STALE, or the question involves a deadline, minimum version or recent change, run `sync` (add `--diff` to see what changed) and `news --days 120`.
-- Before citing a guideline, read it: `apple_docs.py guideline 2.1(b) 5.1.1(v)`. Quote the operative sentence. Clause letters move, so never cite a number from memory.
+- Before citing a guideline, read it: `apple_docs.py guideline "2.1(b)" "5.1.1(v)"` (quote refs: zsh treats parentheses as globs). Quote the operative sentence. Clause letters move, so never cite a number from memory.
 - For developer.apple.com/documentation or Human Interface Guidelines URLs, use `apple_docs.py fetch <url>`. These pages are JavaScript apps, so a generic web fetch returns an empty shell.
 - Search the archive with grep, for example `grep -rn "revoke" $SKILL/references/official/`. `references/official/INDEX.md` maps each file to its topic.
 - For an error code or rejection wording that the official docs don't cover, web-search the exact string (Apple Developer Forums first) and label the result as community evidence, not policy.
