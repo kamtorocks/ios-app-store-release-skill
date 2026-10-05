@@ -1,0 +1,361 @@
+{
+  "account-deletion": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "account-deletion"
+    ],
+    "sha256": "70d5b895619b0129c9215da1b6b5c73eaacd6206f50ec27cf47b0dda9faa9f08",
+    "url": "https://developer.apple.com/support/offering-account-deletion-in-your-app/"
+  },
+  "age-ratings": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "age-ratings"
+    ],
+    "sha256": "2f8cfadb1b2bd8b1a7dd8ac3ec10663167a97b8e45d443dd6c0ab471c68250b1",
+    "url": "https://developer.apple.com/help/app-store-connect/reference/age-ratings-values-and-definitions"
+  },
+  "app-information": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "app-information"
+    ],
+    "sha256": "09f99f6563cbdf2eaeef8ebfd3dc88b17d6c7ab4fd436a566df5a8823f7d3693",
+    "url": "https://developer.apple.com/help/app-store-connect/reference/app-information"
+  },
+  "app-privacy-details": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "app-privacy-details"
+    ],
+    "sha256": "86682c1be4af121b9b57d45723ec398a7459481f89341eb54e8c66cbb45e5aad",
+    "url": "https://developer.apple.com/app-store/app-privacy-details/"
+  },
+  "app-review-process": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "app-review-process"
+    ],
+    "sha256": "77334b175bba9086495d32ca52ecb8c2b46d95506c33b292aadb3ac15e81c32d",
+    "url": "https://developer.apple.com/distribute/app-review/"
+  },
+  "asc-api-keys": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "asc-api-keys"
+    ],
+    "sha256": "983c08bb408daf8b794f00c691c68f07a9ba9208db0e6c184d7387cb1d71537f",
+    "url": "https://developer.apple.com/documentation/appstoreconnectapi/creating-api-keys-for-app-store-connect-api"
+  },
+  "asc-export-compliance": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "asc-export-compliance"
+    ],
+    "sha256": "b9f6d51dee759484359c69221d8f2935ac928a2da3fe3f2dbdc1ee13b55530d2",
+    "url": "https://developer.apple.com/help/app-store-connect/manage-app-information/overview-of-export-compliance"
+  },
+  "asn-v2-enabling": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "asn-v2-enabling"
+    ],
+    "sha256": "5f0eac19188f17107e757a1da4225578a45041ec0778ab3cc54846f9f8bd293f",
+    "url": "https://developer.apple.com/documentation/appstoreservernotifications/enabling-app-store-server-notifications"
+  },
+  "associated-domains": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "associated-domains"
+    ],
+    "sha256": "d3068c8097b5dddc894eb454d8485b9df6f4408d05450f13b4a810469297c9e4",
+    "url": "https://developer.apple.com/documentation/xcode/supporting-associated-domains"
+  },
+  "auto-renewable-subscriptions": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "auto-renewable-subscriptions"
+    ],
+    "sha256": "7fc426f5b80a8cdb8fa439ed436c8ade4aa7b9d1bf89f8ea826e7cad22034182",
+    "url": "https://developer.apple.com/app-store/subscriptions/"
+  },
+  "cfbundleshortversionstring": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "cfbundleshortversionstring"
+    ],
+    "sha256": "7e8cd5d2f1b837192d2085b7bef3b32336405349f541a7f360a0541b9a4e0c6a",
+    "url": "https://developer.apple.com/documentation/bundleresources/information-property-list/cfbundleshortversionstring"
+  },
+  "cfbundleversion": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "cfbundleversion"
+    ],
+    "sha256": "4b5cce9ea813104939a76791b3a641607db9eb4c7572e2b2f913d401307bc324",
+    "url": "https://developer.apple.com/documentation/bundleresources/information-property-list/cfbundleversion"
+  },
+  "crash-reports": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "crash-reports"
+    ],
+    "sha256": "9ea6db74ff1624b684cd665735e076ad35ebf82418ac8a7279774e7700712572",
+    "url": "https://developer.apple.com/documentation/xcode/acquiring-crash-reports-and-diagnostic-logs"
+  },
+  "distributing-for-beta-and-release": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "distributing-for-beta-and-release"
+    ],
+    "sha256": "b8c246a61a767fe485b8587c9345e28a45155d4a6401834b88c69427f81877d5",
+    "url": "https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases"
+  },
+  "export-compliance": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "export-compliance"
+    ],
+    "sha256": "98738cff15ad61d57b91fa49f9011c3e52c66038983ce76709ff5a7cc09baf3f",
+    "url": "https://developer.apple.com/documentation/security/complying-with-encryption-export-regulations"
+  },
+  "healthkit-protecting-user-privacy": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "healthkit-protecting-user-privacy"
+    ],
+    "sha256": "f2c5cc5b84d1a2eeee06fafd06b549b17696a9efa55e79afc922d70b899b7e08",
+    "url": "https://developer.apple.com/documentation/healthkit/protecting-user-privacy"
+  },
+  "hig-privacy": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "hig-privacy"
+    ],
+    "sha256": "7c4cac0b2b0b25a6234c1f6d2267e88584d15358d3117e7a5a811c9b231d4067",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/privacy"
+  },
+  "hig-sign-in-with-apple": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "hig-sign-in-with-apple"
+    ],
+    "sha256": "296a0713b79d856d8c75a9359471ba5929dba2f9e6324d7ec455db46adbec880",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple"
+  },
+  "itsappusesnonexemptencryption": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "itsappusesnonexemptencryption"
+    ],
+    "sha256": "a81173dbca5809bfb7b5cb3a7b21b0e798151dce3612277f16da241b4a79478b",
+    "url": "https://developer.apple.com/documentation/bundleresources/information-property-list/itsappusesnonexemptencryption"
+  },
+  "platform-version-information": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "platform-version-information"
+    ],
+    "sha256": "79b3f7c9d682d2b46a2b0d7eeacee8f58013f4f5fb493e50c313d4af50610546",
+    "url": "https://developer.apple.com/help/app-store-connect/reference/platform-version-information"
+  },
+  "privacy-manifest-data-use": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "privacy-manifest-data-use"
+    ],
+    "sha256": "2a187617dc2174e80c93bc8cb44f6cb52ef6cefbdd81b612305c81b2a38e367b",
+    "url": "https://developer.apple.com/documentation/bundleresources/describing-data-use-in-privacy-manifests"
+  },
+  "privacy-manifest-files": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "privacy-manifest-files"
+    ],
+    "sha256": "fb7660190c2999a848f193356e57902b36a4a1163bbcd7a177479f7e98b65fa3",
+    "url": "https://developer.apple.com/documentation/bundleresources/privacy-manifest-files"
+  },
+  "requesting-access-to-protected-resources": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "requesting-access-to-protected-resources"
+    ],
+    "sha256": "21ea386f6b41ce99f08ea5433f798b78875f219d1ffe9008a9a294597065120e",
+    "url": "https://developer.apple.com/documentation/uikit/requesting-access-to-protected-resources"
+  },
+  "required-reason-api": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "required-reason-api"
+    ],
+    "sha256": "a2c602623db057d8db4fc8e6a31c831e359340f967fa3f36d7332358aa82214e",
+    "url": "https://developer.apple.com/documentation/bundleresources/describing-use-of-required-reason-api"
+  },
+  "review-guidelines": {
+    "apple_last_updated": "June 8, 2026",
+    "fetched": "2026-10-05",
+    "files": [
+      "00-overview",
+      "01-introduction",
+      "02-before-you-submit",
+      "03-1-safety",
+      "04-2-performance",
+      "05-3-business",
+      "06-4-design",
+      "07-5-legal",
+      "08-after-you-submit"
+    ],
+    "sha256": "bb259dd7a3dd147362651f1387db0e18275dd0862745c52c24f489d8bfd536f1",
+    "url": "https://developer.apple.com/app-store/review/guidelines/"
+  },
+  "screenshot-specifications": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "screenshot-specifications"
+    ],
+    "sha256": "122f8ad9d392a5e49e5e7633fd24d91906a295b23f9963f61c05972740c9a930",
+    "url": "https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications"
+  },
+  "siwa-client-secret": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "siwa-client-secret"
+    ],
+    "sha256": "35a1c8d30f89beb5d0cb2e80547d28b708160a9626d097a0017f8d08eed105a8",
+    "url": "https://developer.apple.com/documentation/accountorganizationaldatasharing/creating-a-client-secret"
+  },
+  "siwa-revoke-tokens": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "siwa-revoke-tokens"
+    ],
+    "sha256": "f682237e2836abea53b5d1cc14a5158441047d5ede439996ecf1d0d4996940bd",
+    "url": "https://developer.apple.com/documentation/signinwithapplerestapi/revoke-tokens"
+  },
+  "storekit-sandbox": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "storekit-sandbox"
+    ],
+    "sha256": "c92a59b558553c6d4d99c1ac1dfe754a00ea9ec955402e794b8e474cdc526089",
+    "url": "https://developer.apple.com/documentation/storekit/testing-in-app-purchases-with-sandbox"
+  },
+  "submit-an-in-app-purchase": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "submit-an-in-app-purchase"
+    ],
+    "sha256": "2694e1e29131d1b339dbb98534942a6a2c21aec1bb5a97a2960b997a2618f03b",
+    "url": "https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-an-in-app-purchase"
+  },
+  "submit-for-review": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "submit-for-review"
+    ],
+    "sha256": "2a47372e036b2f98f2e5144702397affc44ee59eddc4bb59d4b7e5c13ec23118",
+    "url": "https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review"
+  },
+  "submitting": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "submitting"
+    ],
+    "sha256": "9c5b0b2781c127ae1fb2aae600f82a48c967d525de7f4453f2aacdd6797f6c9e",
+    "url": "https://developer.apple.com/app-store/submitting/"
+  },
+  "testflight-overview": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "testflight-overview"
+    ],
+    "sha256": "9fdc4807f05205ce9818a0518b44f76e53939dbc9ac0077a3b465b5227c3c756",
+    "url": "https://developer.apple.com/help/app-store-connect/test-a-beta-version/testflight-overview"
+  },
+  "third-party-sdk-requirements": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "third-party-sdk-requirements"
+    ],
+    "sha256": "4ad173548b3c219a70ca8137ae53902f266abae0fec859a2e45e3da65747bc27",
+    "url": "https://developer.apple.com/support/third-party-SDK-requirements/"
+  },
+  "tn3187-uiscene-lifecycle": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "tn3187-uiscene-lifecycle"
+    ],
+    "sha256": "e29bcc09a52cf1e38b7135cb80a76f481d0280d907b4758be591862f7846237c",
+    "url": "https://developer.apple.com/documentation/technotes/tn3187-migrating-to-the-uikit-scene-based-life-cycle"
+  },
+  "tn3194-siwa-account-deletion": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "tn3194-siwa-account-deletion"
+    ],
+    "sha256": "91a277611d34f2d1f030ff3577675bf1c40893e175772b7adbc46f8fe904723b",
+    "url": "https://developer.apple.com/documentation/technotes/tn3194-handling-account-deletions-and-revoking-tokens-for-sign-in-with-apple"
+  },
+  "upcoming-requirements": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "upcoming-requirements"
+    ],
+    "sha256": "b390973f176ed37627994798d3dda92b0921f9ad6fc379d498efbde7cb8a0b70",
+    "url": "https://developer.apple.com/news/upcoming-requirements/"
+  },
+  "upload-builds": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "upload-builds"
+    ],
+    "sha256": "5effb9700b32bed0e9e91fe207fa739263c2c1f88fb91962f959da88eaaa681d",
+    "url": "https://developer.apple.com/help/app-store-connect/manage-builds/upload-builds"
+  },
+  "user-privacy-and-data-use": {
+    "apple_last_updated": null,
+    "fetched": "2026-10-05",
+    "files": [
+      "user-privacy-and-data-use"
+    ],
+    "sha256": "43d6b8a879a6d7517964e574c457a03526665b39d8521b0d8f750867201d19a2",
+    "url": "https://developer.apple.com/app-store/user-privacy-and-data-use/"
+  }
+}
