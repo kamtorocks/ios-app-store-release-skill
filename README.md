@@ -3,7 +3,7 @@
 Claude Code skill:iOS / iPadOS 上架、提审、TestFlight 的实战手册。三层:
 
 1. `SKILL.md` —— 分诊入口 + 11 条防拒规则,触发后自动加载。
-2. `references/*.md` —— 实战经验抽象成的通用原则:被拒处理手册、打包上传与版本号、IAP/订阅、Flutter 等跨平台特例、提审清单。
+2. `references/*.md` —— 实战经验抽象成的通用原则:被拒处理手册、打包上传与版本号、IAP/订阅、Flutter 与 React Native/Expo 特例、提审清单。
 3. `references/official/` —— 苹果官方文档按章节拆分归档(Review Guidelines 分 9 个文件,另有隐私清单、出口合规、账号删除、SIWA、沙盒、ASN、UIScene 等 30+ 篇),可随时联网刷新。
 
 ## 安装 / 更新

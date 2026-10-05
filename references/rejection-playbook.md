@@ -142,6 +142,10 @@ Typical rejections: a pre-permission card titled "Allow <resource>", or a non-es
 - In-app, discoverable (usually Settings > Account), and it deletes the account and its data. Deactivating or signing out doesn't count; a "Delete" button that only signs out is worse than none.
 - Confirmation steps are fine. A regulated industry may require extra steps; explain them in the notes.
 - Sign in with Apple users: revoke their tokens through the REST API on deletion (tn3194-siwa-account-deletion, siwa-revoke-tokens).
+  - Keep the refresh token: at sign-in, send the authorization code to your server, exchange it at `/auth/token`, and store the result.
+  - `client_id` is the bundle ID for native sign-in, and the Services ID for web sign-in. The client secret is signed with the Sign in with Apple key (siwa-client-secret).
+  - No stored token (legacy users): get a fresh authorization code by running a Sign in with Apple request at deletion time, or follow TN3194's manual revocation steps. Either way, deletion must still complete.
+- Active auto-renewable subscription: before deleting, tell the user that billing continues through Apple, and link Manage Subscriptions (`showManageSubscriptions` or `https://apps.apple.com/account/subscriptions`). Scheduling deletion for the subscription's end is allowed only alongside an immediate option (account-deletion FAQ).
 - Server pattern: one server-side routine scoped to the caller (for example a security-definer SQL function keyed on the caller's auth ID, or an authenticated API route) that deletes the auth user and cascades. The client never holds an admin secret.
 - Update the support page and FAQ with what deletion removes.
 

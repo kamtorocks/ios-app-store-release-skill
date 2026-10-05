@@ -28,7 +28,7 @@ Run this top to bottom before each submission, first release or update. Each lin
 - [ ] Every visible button does something or explains why it can't. No placeholder or "coming soon" content, no broken links.
 - [ ] Permissions requested in context. Pre-alert screens have a single "Continue"/"Next" button; nothing is requested at launch (5.1.1(iv), hig-privacy).
 - [ ] Personal data sent to any third party (analytics, AI providers) is disclosed in-app with explicit consent before the first send (5.1.2(i)).
-- [ ] Account deletion in-app actually deletes; Sign in with Apple tokens are revoked (5.1.1(v), tn3194-siwa-account-deletion).
+- [ ] Account deletion in-app actually deletes; Sign in with Apple tokens are revoked; active subscribers are told billing continues through Apple (5.1.1(v), tn3194-siwa-account-deletion, account-deletion).
 - [ ] Sign in with Apple uses the system button and never asks for name or email afterwards (4.0, hig-sign-in-with-apple). Third-party login offered → an equivalent private option exists (4.8).
 - [ ] Review prompts use the system API only, with no incentive (5.6.1).
 

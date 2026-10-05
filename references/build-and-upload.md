@@ -69,7 +69,7 @@ Authentication for the command line:
 ## After upload: processing, export compliance, privacy manifests, SDK minimums
 
 - Processing takes minutes to an hour. Issues arrive by email: some block the build, others are warnings that will block later.
-- Export compliance: if the app uses only exempt encryption (HTTPS, OS crypto), set `ITSAppUsesNonExemptEncryption = NO` in Info.plist. Without the key, every build waits on the compliance question and TestFlight shows "Missing Compliance" until someone answers (itsappusesnonexemptencryption, export-compliance).
+- Export compliance: if the app uses only exempt encryption (HTTPS, OS crypto), set `ITSAppUsesNonExemptEncryption = NO` in Info.plist. Without the key, every build waits on the compliance question and TestFlight shows "Missing Compliance" until someone answers (itsappusesnonexemptencryption, export-compliance). Adding the key only affects new uploads; builds already uploaded still need the manual answer.
 - Privacy manifests: SDKs ship their own `PrivacyInfo.xcprivacy`. The app needs its own manifest when the app's own code uses a required-reason API (UserDefaults, file timestamps, system boot time, disk space, active keyboards); missing declarations produce ITMS-91053 (required-reason-api). SDKs on Apple's list must ship a signed manifest (third-party-sdk-requirements). App Privacy answers in App Store Connect must match all of it (app-privacy-details).
 - SDK and Xcode minimums move every spring, and the minimum deployment target moves too. Read `upcoming-requirements` live (`apple_docs.py fetch https://developer.apple.com/news/upcoming-requirements/`), because the archive may predate the latest deadline.
 

@@ -120,6 +120,6 @@ Apple forces engine upgrades on its own schedule (UIScene, SDK minimums). A pack
 ## Other stacks
 
 The mechanisms are the same; only the files differ. Inspect the IPA regardless.
-- React Native / Expo: environment values are baked in at bundle time, and autolinked native modules are linked regardless of JS usage. Use build profiles or config plugins to drop modules and Info.plist keys from the store profile. Expo's `ios.infoPlist` is the source of purpose strings.
+- React Native / Expo: see react-native-expo.md.
 - Capacitor / Cordova: plugins add frameworks and Info.plist keys at sync time. Review the generated native project, not the web code.
 - Native Swift: use build configurations plus xcconfig per flavor, and `#if` compilation conditions. Prefer conditional SPM or pod dependencies to runtime flags.

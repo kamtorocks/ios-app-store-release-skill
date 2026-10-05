@@ -29,7 +29,8 @@ Apple changes the rules several times a year: guideline revisions, SDK and Xcode
 | Signing, version/build numbers, upload, ITMS codes, TestFlight, flavors | references/build-and-upload.md |
 | App broken only on a new iOS; reading device evidence | references/build-and-upload.md, sections "New iOS releases" and "Device evidence" |
 | IAP or subscriptions: products missing, reviewer can't buy, paywall rules, server verification | references/iap-subscriptions.md |
-| Flutter, React Native, Expo or Capacitor specifics | references/flutter-ios.md |
+| Flutter specifics (also Capacitor/native-Swift notes) | references/flutter-ios.md |
+| React Native / Expo specifics (EAS, config plugins, OTA) | references/react-native-expo.md |
 | What Apple's documentation literally says | references/official/ (via INDEX.md, grep, or the `guideline` command) |
 
 ## 3. Rules that prevent most rejections
@@ -53,7 +54,7 @@ Produce these, in order:
 2. The mechanism: what in the binary, metadata or backend showed the reviewer the problem.
 3. The fix class: metadata only, server only (reply in App Store Connect, same build), or new binary. Prefer the fix that removes the cause, not one that hides the symptom; every half-measure costs a review round.
 4. A reply draft in English for App Store Connect: what changed, where to see it, demo credentials and steps. Factual and short. Appeal only when a compliant app was misread.
-5. Prevention: the checklist line or build guard that would have caught it. Add it to this skill if it is new (section 6).
+5. Prevention: the checklist line or build guard that would have caught it. Once the fix is confirmed, add any new lesson to this skill (section 6).
 
 Talk to the user in their own language. Write App Review replies in English.
 

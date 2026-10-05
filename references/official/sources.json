@@ -44,7 +44,7 @@
      "url": "https://developer.apple.com/documentation/signinwithapplerestapi/revoke-tokens"},
     {"id": "tn3194-siwa-account-deletion", "topic": "Account deletion + Sign in with Apple token revocation, end to end",
      "url": "https://developer.apple.com/documentation/technotes/tn3194-handling-account-deletions-and-revoking-tokens-for-sign-in-with-apple"},
-    {"id": "siwa-client-secret", "topic": "Client secret JWT for Sign in with Apple REST/web (max 6-month expiry)",
+    {"id": "siwa-client-secret", "topic": "Client-secret JWT (max 6-month expiry). Apple's shared page for Sign in with Apple REST and Account & Organizational Data Sharing: for Sign in with Apple, sign with the Sign in with Apple key; sub = bundle ID (native) or Services ID (web)",
      "url": "https://developer.apple.com/documentation/accountorganizationaldatasharing/creating-a-client-secret"},
 
     {"id": "auto-renewable-subscriptions", "topic": "Subscription best practices: offers, paywall disclosures, upgrades, retention",
