@@ -9,7 +9,7 @@ Claude Code skill:iOS / iPadOS 上架、提审、TestFlight 的实战手册。�
 ## 安装 / 更新
 
 ```bash
-git clone git@github.com:kamtorocks/ios-app-store-release-skill.git ~/.claude/skills/ios-app-store-release
+git clone https://github.com/kamtorocks/ios-app-store-release-skill.git ~/.claude/skills/ios-app-store-release
 git -C ~/.claude/skills/ios-app-store-release pull     # 更新
 ```
 
