@@ -115,6 +115,15 @@ Every existing build, including the version live on the App Store, crashes at la
 
 Doing only part 1 changes nothing, which makes "upgrade the framework" look like the wrong direction. After migrating, re-test the lifecycle-sensitive paths: foreground and background, deep links and Universal Links, notifications, IAP, WebView, state restoration.
 
+Example: SwiftUI on iOS 26 lays out some subtrees on a background thread (`com.apple.SwiftUI.AsyncRenderer`) and calls view-builder closures there, most often a `ForEach` content closure inside a `ScrollView` or `ViewThatFits`. In the Swift 6 language mode those closures are `@MainActor`-isolated and start with a runtime isolation check, so the app traps:
+
+```
+_dispatch_assert_queue_fail ← _swift_task_checkIsolatedSwift ← closure #1 in … SomeView.body.getter
+← ForEachState.item(at:offset:)   (thread: com.apple.SwiftUI.AsyncRenderer)
+```
+
+It shows up only on some layouts (it was reproducible on iPad, never on iPhone), and removing one `ForEach` just moves the crash to the next one. `-disable-dynamic-actor-isolation` did not remove the check. The fix that held: build the app target in the Swift 5 language mode with `SWIFT_STRICT_CONCURRENCY = complete` and the Swift 6 compile-time features enabled one by one (`-enable-upcoming-feature InferSendableFromCaptures`, `GlobalActorIsolatedTypesUsability`, `RegionBasedIsolation`, `IsolatedDefaultValues`, `DisableOutwardActorInference`, `GlobalConcurrency`), which keeps the compile-time checking and drops the runtime trap. Don't use `MainActor.assumeIsolated` in view builders either. Prevention: run every screen on an iPad simulator of the newest iOS before submitting, and read `~/Library/Logs/DiagnosticReports/<App>-*.ips` after automated screenshot runs; a capture that shows the home screen is a crash.
+
 Cadence:
 - June (WWDC betas): install the shipping App Store build on the beta, read the iOS release notes for deprecations, and grep `news`.
 - July and August: fix on a branch; check that your frameworks and plugins support the new SDK. Dead packages block forced upgrades; replace them early.
