@@ -11,6 +11,7 @@ Each entry: reviewer wording → mechanism (what in the binary, metadata or back
 - 2.3 Metadata and screenshots
 - 3.1.1 / 3.1.3 Payment routes and Restore
 - 3.1.2 Subscription disclosure, price prominence, false urgency
+- 3 (automated) Confirm the intended in-app purchase price
 - 4.0 Sign in with Apple asks for name or email again
 - 4.2 Minimum functionality
 - 4.8 Login services
@@ -106,6 +107,16 @@ Prominence: the recurring amount the user will be billed is the largest, cleares
 False urgency: a countdown implying the offer expires when it doesn't is a trick under 3.1.2(a) ("trick users into purchasing a subscription under false pretenses").
 
 Prevention: one checkout component renders the legal footer in every state (loading, error, purchased). Never duplicate the paywall.
+
+## 3 (automated) Confirm the intended in-app purchase price
+
+Reviewer (automated message, "App Review Guideline Issue", cites guideline 3): "The review of this submission cannot proceed. Additional verification is needed… can you confirm the following In-App Purchase product(s) have the correct intended price(s): <product> (<price> per month)?"
+
+Mechanism: a price sanity check on products priced unusually high (seen on a premium monthly tier at ten times the base tier). It is a hold, not a rejection; review resumes after a reply.
+
+Fix: reply to the message in App Store Connect; no new build, metadata or product change. Confirm the product, its product ID, price and period; give the reason for the price in one or two sentences (what the tier adds and why it costs more, e.g. a larger allowance of a paid backend service); and confirm the prices of the other high-priced products in the same reply so the check isn't repeated product by product.
+
+Prevention: when a tier or consumable is priced far above the rest, state in Review Notes that the price is intended and why.
 
 ## 4.0 Sign in with Apple asks for name or email again
 

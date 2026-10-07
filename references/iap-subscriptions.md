@@ -64,6 +64,7 @@ Per 3.1.2(c) and Schedule 2 of the Developer Program License Agreement; read the
 - Each product has a review screenshot (the paywall) and review notes.
 - App Review Notes say how to reach the paywall, that purchases are sandbox, which demo account to use, and what the subscription delivers (if it unlocks a service such as coaching or AI, say what the reviewer will see after buying).
 - If a configured product can't be reached in the app, explain why or remove it from the submission (2.1(b)).
+- A product priced far above the others can trigger an automated "confirm the intended price" hold (rejection-playbook.md, guideline 3). Say in Review Notes that the price is intended and why.
 
 ## Identity pitfalls
 
