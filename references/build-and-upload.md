@@ -49,7 +49,7 @@ When an internal build must use the production ID (real IAP products, push certi
 ## Purpose strings and capability symmetry
 
 Three things must agree in every build: a linked protected API, its `NS*UsageDescription`, and a feature that is reachable in that build.
-- API linked without a string: upload rejected with ITMS-90683. The check is static: it fires when any embedded framework references the API, even if your code never calls it. At runtime the call crashes.
+- API linked without a string: ITMS-90683, either an upload rejection or a post-delivery warning email. The check is static: it fires when the app executable or any embedded framework references the API, even if your code never calls it or the call sits in an unreachable branch. At runtime the call crashes.
 - String without a reachable feature: a capability the reviewer looks for and can't find (2.1), or an unjustified data request (5.1.1). A camera string kept only for a hardware setup scanner advertises the scanner.
 - Feature reachable without a string: crashes when the API is called.
 
